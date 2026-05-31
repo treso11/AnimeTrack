@@ -1,0 +1,43 @@
+# Fichiers générés par Android Studio
+*.iml
+.gradle/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/
+.DS_Store
+
+# Dossiers de build
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Fichiers de configuration personnelle
+secrets.properties
+keystore.properties
+google-services.json
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.bak
+*.log
+
+# Fichiers de debug
+*.hprof
+*.dump
+
+# OS spécifique
+Thumbs.db
+Desktop.ini
+
+# Fichiers de versioning
+*.orig
+*.rej

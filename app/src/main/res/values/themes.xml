@@ -1,0 +1,27 @@
+<resources>
+    <!-- Thème principal -->
+    <style name="Theme.AnimeTrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Couleurs -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#000000</item>
+
+        <!-- Fond -->
+        <item name="android:colorBackground">#1A1C25</item>
+        <item name="android:windowBackground">#1A1C25</item>
+        <item name="android:statusBarColor">#0D0D0D</item>
+
+        <!-- Couleur du menu (3 points) -->
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <!-- Style du menu popup -->
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">#1E1E1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name= "SpinnerArroWhite">
+        <item name = "android:colorControlNormal">#FFFFFF</item>
+    </style>
+</resources>
